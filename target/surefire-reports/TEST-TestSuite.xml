@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,916.376" tests="41" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.boot.library.path" value="C:\Users\bhuva\Java\jdk-14.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\bhuva\eclipse-workspace\DollarDays2"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\bhuva\eclipse-workspace\DollarDays2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\bhuva\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\bhuva\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf361839481704136909.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\bhuva\Java\jdk-14.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/bhuva/Java/jdk-14.0.2/bin/server;C:/Users/bhuva/Java/jdk-14.0.2/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\bhuva\Java\jdk-14.0.2\bin;C:\Program Files\Git\cmd;C:\Users\bhuva\Java\jdk-14.0.2\bin;C:\Users\bhuva\OneDrive\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\bhuva"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="bhuva"/>
+    <property name="java.class.path" value="C:\Users\bhuva\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Users\bhuva\Java\jdk-14.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\bhuva\eclipse-workspace\DollarDays2\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createlogin" classname="com.dollardays.testcases.NewAccountTestcase" time="16.189"/>
+  <testcase name="createlogin" classname="com.dollardays.testcases.NewAccountTestcase" time="14.057"/>
+  <testcase name="createlogin" classname="com.dollardays.testcases.NewAccountTestcase" time="14.329"/>
+  <testcase name="createlogin" classname="com.dollardays.testcases.NewAccountTestcase" time="14.013"/>
+  <testcase name="createlogin" classname="com.dollardays.testcases.NewAccountTestcase" time="16.285"/>
+  <testcase name="createlogin" classname="com.dollardays.testcases.NewAccountTestcase" time="16.03"/>
+  <testcase name="createlogin" classname="com.dollardays.testcases.NewAccountTestcase" time="13.999"/>
+  <testcase name="createlogin" classname="com.dollardays.testcases.NewAccountTestcase" time="14.824"/>
+  <testcase name="createlogin" classname="com.dollardays.testcases.NewAccountTestcase" time="15.319"/>
+  <testcase name="TC_01_orderHistory" classname="com.dollardays.testcases.OrderHistoryTestcase" time="36.709">
+    <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; name=&quot;ctl00$cphContent$btnFetchOrders&quot; value=&quot;Submit&quot; id=&quot;ctl00_cphContent_btnFetchOrders&quot; class=&quot; btn dd-btn-primary&quot;&gt; is not clickable at point (1132, 353). Other element would receive the click: &lt;p&gt;...&lt;/p&gt;&#10;  (Session info: chrome=87.0.4280.141)&#10;  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.12 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DESKTOP-5BBFA1D&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55261}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir30732_708565042}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 18089fe19130944aae070ced8711cbe7" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+element click intercepted: Element <input type="submit" name="ctl00$cphContent$btnFetchOrders" value="Submit" id="ctl00_cphContent_btnFetchOrders" class=" btn dd-btn-primary"> is not clickable at point (1132, 353). Other element would receive the click: <p>...</p>
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.12 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-5BBFA1D', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55261}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir30732_708565042}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 18089fe19130944aae070ced8711cbe7
+	at com.dollardays.testcases.OrderHistoryTestcase.TC_01_orderHistory(OrderHistoryTestcase.java:65)
+]]></failure>
+    <system-out><![CDATA[*** Executed TestResult test successfully...
+*** Executed createlogin test successfully...
+*** Test Suite Test ending ***
+*** Test Suite Dollar Days Test started ***
+rowcount3
+
+ colcount9
+TC1 Valid Login Credentials
+ and click on Order History page Yes srikanthtesting100@gmail.com cGFzc3dvcmQxMjM=     *** Running test method TC_01_orderHistory...
+The month is January
+The year is2020
+The month is January
+The year is2021
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_02_orderHistory" classname="com.dollardays.testcases.OrderHistoryTestcase" time="22.039">
+    <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; name=&quot;ctl00$cphContent$btnFetchOrders&quot; value=&quot;Submit&quot; id=&quot;ctl00_cphContent_btnFetchOrders&quot; class=&quot; btn dd-btn-primary&quot;&gt; is not clickable at point (1132, 353). Other element would receive the click: &lt;p&gt;...&lt;/p&gt;&#10;  (Session info: chrome=87.0.4280.141)&#10;  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.12 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DESKTOP-5BBFA1D&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55358}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir22080_1663227348}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 15cde0a3e5f473b7bbc1a9201e9a7dcd" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+element click intercepted: Element <input type="submit" name="ctl00$cphContent$btnFetchOrders" value="Submit" id="ctl00_cphContent_btnFetchOrders" class=" btn dd-btn-primary"> is not clickable at point (1132, 353). Other element would receive the click: <p>...</p>
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.12 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-5BBFA1D', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55358}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir22080_1663227348}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 15cde0a3e5f473b7bbc1a9201e9a7dcd
+	at com.dollardays.testcases.OrderHistoryTestcase.TC_02_orderHistory(OrderHistoryTestcase.java:101)
+]]></failure>
+    <system-out><![CDATA[*** Test execution TC_01_orderHistory failed...
+rowcount3
+
+ colcount9
+TC2 Enter Start date and End date in the field Yes srikanthtesting100@gmail.com cGFzc3dvcmQxMjM= 44168.0 44185.0   *** Running test method TC_02_orderHistory...
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_03_orderHistory" classname="com.dollardays.testcases.OrderHistoryTestcase" time="26.854">
+    <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; name=&quot;ctl00$cphContent$btnFetchOrders&quot; value=&quot;Submit&quot; id=&quot;ctl00_cphContent_btnFetchOrders&quot; class=&quot; btn dd-btn-primary&quot;&gt; is not clickable at point (1132, 353). Other element would receive the click: &lt;p&gt;...&lt;/p&gt;&#10;  (Session info: chrome=87.0.4280.141)&#10;  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.11 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DESKTOP-5BBFA1D&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55446}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir2596_35679284}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: eb1afb849e8008112c4705464a1009bd" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+element click intercepted: Element <input type="submit" name="ctl00$cphContent$btnFetchOrders" value="Submit" id="ctl00_cphContent_btnFetchOrders" class=" btn dd-btn-primary"> is not clickable at point (1132, 353). Other element would receive the click: <p>...</p>
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.11 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-5BBFA1D', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55446}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir2596_35679284}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: eb1afb849e8008112c4705464a1009bd
+	at com.dollardays.testcases.OrderHistoryTestcase.TC_03_orderHistory(OrderHistoryTestcase.java:136)
+]]></failure>
+    <system-out><![CDATA[*** Test execution TC_02_orderHistory failed...
+rowcount3
+
+ colcount9
+TC2 Enter Start date and End date in the field Yes srikanthtesting100@gmail.com cGFzc3dvcmQxMjM= 44168.0 44185.0   *** Running test method TC_03_orderHistory...
+The month is January
+The year is2020
+The month is January
+The year is2021
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_04_orderHistory" classname="com.dollardays.testcases.OrderHistoryTestcase" time="19.421"/>
+  <testcase name="TC_05_orderHistory" classname="com.dollardays.testcases.OrderHistoryTestcase" time="39.439"/>
+  <testcase name="TC_08BestMatch" classname="com.dollardays.testcases.MyFavoritesTestcase" time="53.99"/>
+  <testcase name="TC_09NewestFirst" classname="com.dollardays.testcases.MyFavoritesTestcase" time="51.979"/>
+  <testcase name="TC_10Popularity" classname="com.dollardays.testcases.MyFavoritesTestcase" time="48.565"/>
+  <testcase name="TC_11CaseQuantity" classname="com.dollardays.testcases.MyFavoritesTestcase" time="50.577"/>
+  <testcase name="TC_12PricePerUnitLH" classname="com.dollardays.testcases.MyFavoritesTestcase" time="45.877"/>
+  <testcase name="TC_13PricePerUnitHL" classname="com.dollardays.testcases.MyFavoritesTestcase" time="13.325">
+    <failure message="Cannot locate element with text: Price Per Unit(High to Low)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DESKTOP-5BBFA1D&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Price Per Unit(High to Low)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-5BBFA1D', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+	at com.dollardays.testcases.MyFavoritesTestcase.TC_13PricePerUnitHL(MyFavoritesTestcase.java:346)
+</failure>
+    <system-out><![CDATA[*** Executed TestResult test successfully...
+*** Executed TC_12PricePerUnitLH test successfully...
+rowcount11
+
+ colcount8
+TC13 Sort By Price Per Unit(High to Low)  & View  - 12,24,48 No testingteams2021@gmail.com dGVhbTIwMjE= Price Per Unit(High to Low) Fail  *** Running test method TC_13PricePerUnitHL...
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_14AlphabeticallyByName" classname="com.dollardays.testcases.MyFavoritesTestcase" time="46.467"/>
+  <testcase name="TC_15AddtoFavorites" classname="com.dollardays.testcases.MyFavoritesTestcase" time="95.664"/>
+  <testcase name="TC_16ValidateProdFavPage" classname="com.dollardays.testcases.MyFavoritesTestcase" time="34.395"/>
+  <testcase name="addressBookCreate" classname="com.dollardays.testcases.MyAddressBookTestCase" time="42.81"/>
+  <testcase name="addressBookCreate" classname="com.dollardays.testcases.MyAddressBookTestCase" time="71.238"/>
+  <testcase name="addressBookCreate" classname="com.dollardays.testcases.MyAddressBookTestCase" time="60.943"/>
+  <testcase name="addressBookCreate" classname="com.dollardays.testcases.MyAddressBookTestCase" time="33.84"/>
+  <testcase name="addressBookCreate" classname="com.dollardays.testcases.MyAddressBookTestCase" time="33.082"/>
+  <testcase name="addressBookLastCancel" classname="com.dollardays.testcases.MyAddressBookTestCase" time="30.464"/>
+  <testcase name="addressBookLastCancel" classname="com.dollardays.testcases.MyAddressBookTestCase" time="31.303"/>
+  <testcase name="addressBookLastCancel" classname="com.dollardays.testcases.MyAddressBookTestCase" time="30.368"/>
+  <testcase name="addressBookLastCancel" classname="com.dollardays.testcases.MyAddressBookTestCase" time="30.602"/>
+  <testcase name="addressBookLastCancel" classname="com.dollardays.testcases.MyAddressBookTestCase" time="30.981"/>
+  <testcase name="login" classname="com.dollardays.testcases.MyAddressBookTestCase" time="10.162"/>
+  <testcase name="addWallet" classname="com.dollardays.testcases.MyWalletTestcase" time="29.813"/>
+  <testcase name="addWallet" classname="com.dollardays.testcases.MyWalletTestcase" time="36.376"/>
+  <testcase name="cancelWalletAdd" classname="com.dollardays.testcases.MyWalletTestcase" time="28.037"/>
+  <testcase name="cancelWalletAdd" classname="com.dollardays.testcases.MyWalletTestcase" time="26.341"/>
+  <testcase name="editWallet" classname="com.dollardays.testcases.MyWalletTestcase" time="31.23"/>
+  <testcase name="editWallet" classname="com.dollardays.testcases.MyWalletTestcase" time="31.753"/>
+  <testcase name="enteringthedata" classname="com.dollardays.testcases.SubmitARequestTestcase" time="29.664"/>
+</testsuite>

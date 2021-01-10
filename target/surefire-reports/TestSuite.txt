@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 41, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1,916.376 sec <<< FAILURE! - in TestSuite
+TC_01_orderHistory(com.dollardays.testcases.OrderHistoryTestcase)  Time elapsed: 36.709 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+element click intercepted: Element <input type="submit" name="ctl00$cphContent$btnFetchOrders" value="Submit" id="ctl00_cphContent_btnFetchOrders" class=" btn dd-btn-primary"> is not clickable at point (1132, 353). Other element would receive the click: <p>...</p>
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.12 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-5BBFA1D', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55261}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir30732_708565042}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 18089fe19130944aae070ced8711cbe7
+	at com.dollardays.testcases.OrderHistoryTestcase.TC_01_orderHistory(OrderHistoryTestcase.java:65)
+
+TC_02_orderHistory(com.dollardays.testcases.OrderHistoryTestcase)  Time elapsed: 22.039 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+element click intercepted: Element <input type="submit" name="ctl00$cphContent$btnFetchOrders" value="Submit" id="ctl00_cphContent_btnFetchOrders" class=" btn dd-btn-primary"> is not clickable at point (1132, 353). Other element would receive the click: <p>...</p>
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.12 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-5BBFA1D', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55358}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir22080_1663227348}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 15cde0a3e5f473b7bbc1a9201e9a7dcd
+	at com.dollardays.testcases.OrderHistoryTestcase.TC_02_orderHistory(OrderHistoryTestcase.java:101)
+
+TC_03_orderHistory(com.dollardays.testcases.OrderHistoryTestcase)  Time elapsed: 26.854 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+element click intercepted: Element <input type="submit" name="ctl00$cphContent$btnFetchOrders" value="Submit" id="ctl00_cphContent_btnFetchOrders" class=" btn dd-btn-primary"> is not clickable at point (1132, 353). Other element would receive the click: <p>...</p>
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.11 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-5BBFA1D', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55446}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir2596_35679284}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: eb1afb849e8008112c4705464a1009bd
+	at com.dollardays.testcases.OrderHistoryTestcase.TC_03_orderHistory(OrderHistoryTestcase.java:136)
+
+TC_13PricePerUnitHL(com.dollardays.testcases.MyFavoritesTestcase)  Time elapsed: 13.325 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Price Per Unit(High to Low)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-5BBFA1D', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+	at com.dollardays.testcases.MyFavoritesTestcase.TC_13PricePerUnitHL(MyFavoritesTestcase.java:346)
+

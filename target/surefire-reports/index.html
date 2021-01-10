@@ -1,0 +1,2510 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">7 suites, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite_(1)" class="navigator-link">
+              <span class="suite-name border-failed">Suite (1)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite_(1)" class="navigator-link ">
+                    <span>C:\Users\bhuva\eclipse-workspace\DollarDays2\config\OrderHistory.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite_(1)" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite_(1)" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite_(1)" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite_(1)" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite_(1)" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite_(1)" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite_(1)" class="hide-methods failed suite-Suite_(1)"> (hide)</a> <!-- hide-methods failed suite-Suite_(1) -->
+                      <a href="#" panel-name="suite-Suite_(1)" class="show-methods failed suite-Suite_(1)"> (show)</a> <!-- show-methods failed suite-Suite_(1) -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite_(1)">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(1)" title="com.dollardays.testcases.OrderHistoryTestcase" class="method navigator-link" hash-for-method="TC_01_orderHistory({TestCase=Valid Login Credentials
+ and click on Order History page, Start Date=, TCID=TC1, SheetName...)">TC_01_orderHistory({TestCase=Valid Login Credentials
+ and click on Order History page, Start Date=, TCID=TC1, SheetName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(1)" title="com.dollardays.testcases.OrderHistoryTestcase" class="method navigator-link" hash-for-method="TC_02_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)">TC_02_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(1)" title="com.dollardays.testcases.OrderHistoryTestcase" class="method navigator-link" hash-for-method="TC_03_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)">TC_03_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite_(1) -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_(1)" class="hide-methods passed suite-Suite_(1)"> (hide)</a> <!-- hide-methods passed suite-Suite_(1) -->
+                      <a href="#" panel-name="suite-Suite_(1)" class="show-methods passed suite-Suite_(1)"> (show)</a> <!-- show-methods passed suite-Suite_(1) -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_(1)">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(1)" title="com.dollardays.testcases.OrderHistoryTestcase" class="method navigator-link" hash-for-method="TC_04_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)">TC_04_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(1)" title="com.dollardays.testcases.OrderHistoryTestcase" class="method navigator-link" hash-for-method="TC_05_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)">TC_05_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_(1) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite_(0)" class="navigator-link">
+              <span class="suite-name border-passed">Suite (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite_(0)" class="navigator-link ">
+                    <span>C:\Users\bhuva\eclipse-workspace\DollarDays2\config\NewAccount.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite_(0)" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite_(0)" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite_(0)" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite_(0)" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite_(0)" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite_(0)" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_(0)" class="hide-methods passed suite-Suite_(0)"> (hide)</a> <!-- hide-methods passed suite-Suite_(0) -->
+                      <a href="#" panel-name="suite-Suite_(0)" class="show-methods passed suite-Suite_(0)"> (show)</a> <!-- show-methods passed suite-Suite_(0) -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_(0)">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(0)" title="com.dollardays.testcases.NewAccountTestcase" class="method navigator-link" hash-for-method="createlogin({TestCase=Verify lastname field with maxcharacters, TCID=TC4, Lastname=, SheetName=CreateAccount, Co...)">createlogin({TestCase=Verify lastname field with maxcharacters, TCID=TC4, Lastname=, SheetName=CreateAccount, Co...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(0)" title="com.dollardays.testcases.NewAccountTestcase" class="method navigator-link" hash-for-method="createlogin({TestCase=verify email field with numbers and chracters, TCID=TC8, Lastname=123asdertfffm34557, Shee...)">createlogin({TestCase=verify email field with numbers and chracters, TCID=TC8, Lastname=123asdertfffm34557, Shee...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(0)" title="com.dollardays.testcases.NewAccountTestcase" class="method navigator-link" hash-for-method="createlogin({TestCase=Verify invalid data, TCID=TC5, Lastname=d, SheetName=CreateAccount, Confirmpassword=2.0, R...)">createlogin({TestCase=Verify invalid data, TCID=TC5, Lastname=d, SheetName=CreateAccount, Confirmpassword=2.0, R...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(0)" title="com.dollardays.testcases.NewAccountTestcase" class="method navigator-link" hash-for-method="createlogin({TestCase=Verify password fields with different passwords, TCID=TC9, Lastname=def, SheetName=CreateA...)">createlogin({TestCase=Verify password fields with different passwords, TCID=TC9, Lastname=def, SheetName=CreateA...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(0)" title="com.dollardays.testcases.NewAccountTestcase" class="method navigator-link" hash-for-method="createlogin({TestCase=Verify required fields, TCID=TC3, Lastname=Abcdeffhfhkdfdkl48374n8973n89472, SheetName=Cre...)">createlogin({TestCase=Verify required fields, TCID=TC3, Lastname=Abcdeffhfhkdfdkl48374n8973n89472, SheetName=Cre...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(0)" title="com.dollardays.testcases.NewAccountTestcase" class="method navigator-link" hash-for-method="createlogin({TestCase=verify null data, TCID=TC2, Lastname=, SheetName=CreateAccount, Confirmpassword=, Runmode=...)">createlogin({TestCase=verify null data, TCID=TC2, Lastname=, SheetName=CreateAccount, Confirmpassword=, Runmode=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(0)" title="com.dollardays.testcases.NewAccountTestcase" class="method navigator-link" hash-for-method="createlogin({TestCase=Verify all the fields with numbers, TCID=TC6, Lastname=2.0, SheetName=CreateAccount, Confi...)">createlogin({TestCase=Verify all the fields with numbers, TCID=TC6, Lastname=2.0, SheetName=CreateAccount, Confi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(0)" title="com.dollardays.testcases.NewAccountTestcase" class="method navigator-link" hash-for-method="createlogin({TestCase=Verify valid data, TCID=TC1, Lastname=lars, SheetName=CreateAccount, Confirmpassword=345.0...)">createlogin({TestCase=Verify valid data, TCID=TC1, Lastname=lars, SheetName=CreateAccount, Confirmpassword=345.0...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(0)" title="com.dollardays.testcases.NewAccountTestcase" class="method navigator-link" hash-for-method="createlogin({TestCase=verify all the fields with numbers , TCID=TC7, Lastname=34353.0, SheetName=CreateAccount, ...)">createlogin({TestCase=verify all the fields with numbers , TCID=TC7, Lastname=34353.0, SheetName=CreateAccount, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite_(5)" class="navigator-link">
+              <span class="suite-name border-passed">Suite (5)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite_(5)" class="navigator-link ">
+                    <span>C:\Users\bhuva\eclipse-workspace\DollarDays2\config\SubmitaRequest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite_(5)" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite_(5)" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite_(5)" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite_(5)" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite_(5)" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite_(5)" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_(5)" class="hide-methods passed suite-Suite_(5)"> (hide)</a> <!-- hide-methods passed suite-Suite_(5) -->
+                      <a href="#" panel-name="suite-Suite_(5)" class="show-methods passed suite-Suite_(5)"> (show)</a> <!-- show-methods passed suite-Suite_(5) -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_(5)">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(5)" title="com.dollardays.testcases.SubmitARequestTestcase" class="method navigator-link" hash-for-method="enteringthedata({TestCase=Submit A Request with valid data , ordernumber=7890.0, TCID=TC1, SheetName=SubmitARequest,...)">enteringthedata({TestCase=Submit A Request with valid data , ordernumber=7890.0, TCID=TC1, SheetName=SubmitARequest,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_(5) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite_(4)" class="navigator-link">
+              <span class="suite-name border-passed">Suite (4)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite_(4)" class="navigator-link ">
+                    <span>C:\Users\bhuva\eclipse-workspace\DollarDays2\config\MyWallet.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite_(4)" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite_(4)" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite_(4)" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite_(4)" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite_(4)" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite_(4)" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_(4)" class="hide-methods passed suite-Suite_(4)"> (hide)</a> <!-- hide-methods passed suite-Suite_(4) -->
+                      <a href="#" panel-name="suite-Suite_(4)" class="show-methods passed suite-Suite_(4)"> (show)</a> <!-- show-methods passed suite-Suite_(4) -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_(4)">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(4)" title="com.dollardays.testcases.MyWalletTestcase" class="method navigator-link" hash-for-method="addWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)">addWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(4)" title="com.dollardays.testcases.MyWalletTestcase" class="method navigator-link" hash-for-method="addWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)">addWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(4)" title="com.dollardays.testcases.MyWalletTestcase" class="method navigator-link" hash-for-method="cancelWalletAdd({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)">cancelWalletAdd({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(4)" title="com.dollardays.testcases.MyWalletTestcase" class="method navigator-link" hash-for-method="cancelWalletAdd({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)">cancelWalletAdd({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(4)" title="com.dollardays.testcases.MyWalletTestcase" class="method navigator-link" hash-for-method="editWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)">editWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(4)" title="com.dollardays.testcases.MyWalletTestcase" class="method navigator-link" hash-for-method="editWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)">editWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_(4) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite_(3)" class="navigator-link">
+              <span class="suite-name border-passed">Suite (3)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite_(3)" class="navigator-link ">
+                    <span>C:\Users\bhuva\eclipse-workspace\DollarDays2\config\MyAddressBook.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite_(3)" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite_(3)" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite_(3)" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite_(3)" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite_(3)" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite_(3)" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_(3)" class="hide-methods passed suite-Suite_(3)"> (hide)</a> <!-- hide-methods passed suite-Suite_(3) -->
+                      <a href="#" panel-name="suite-Suite_(3)" class="show-methods passed suite-Suite_(3)"> (show)</a> <!-- show-methods passed suite-Suite_(3) -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_(3)">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookCreate({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookCreate({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="addressBookLastCancel({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">addressBookLastCancel({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(3)" title="com.dollardays.testcases.MyAddressBookTestCase" class="method navigator-link" hash-for-method="login({Apt=1234.0, TestCase=Valid Login Credentials, Ext=1.0, TCID=TC_DD_AddressBook_01, SheetName=Sheet1,...)">login({Apt=1234.0, TestCase=Valid Login Credentials, Ext=1.0, TCID=TC_DD_AddressBook_01, SheetName=Sheet1,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_(3) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite_(2)" class="navigator-link">
+              <span class="suite-name border-failed">Suite (2)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite_(2)" class="navigator-link ">
+                    <span>C:\Users\bhuva\eclipse-workspace\DollarDays2\config\MyFavorites.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite_(2)" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite_(2)" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite_(2)" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite_(2)" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite_(2)" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite_(2)" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite_(2)" class="hide-methods failed suite-Suite_(2)"> (hide)</a> <!-- hide-methods failed suite-Suite_(2) -->
+                      <a href="#" panel-name="suite-Suite_(2)" class="show-methods failed suite-Suite_(2)"> (show)</a> <!-- show-methods failed suite-Suite_(2) -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite_(2)">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(2)" title="com.dollardays.testcases.MyFavoritesTestcase" class="method navigator-link" hash-for-method="TC_13PricePerUnitHL({Test Result=Fail, TestCase=Sort By Price Per Unit(High to Low)  &amp; View  - 12,24,48, Comments=, TCID...)">TC_13PricePerUnitHL({Test Result=Fail, TestCase=Sort By Price Per Unit(High to Low)  & View  - 12,24,48, Comments=, TCID...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite_(2) -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_(2)" class="hide-methods passed suite-Suite_(2)"> (hide)</a> <!-- hide-methods passed suite-Suite_(2) -->
+                      <a href="#" panel-name="suite-Suite_(2)" class="show-methods passed suite-Suite_(2)"> (show)</a> <!-- show-methods passed suite-Suite_(2) -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_(2)">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(2)" title="com.dollardays.testcases.MyFavoritesTestcase" class="method navigator-link" hash-for-method="TC_08BestMatch({Test Result=PASS, TestCase=Sort By Best Match &amp; View  - 12,24,48, Comments=, TCID=TC8, SheetName=Fa...)">TC_08BestMatch({Test Result=PASS, TestCase=Sort By Best Match & View  - 12,24,48, Comments=, TCID=TC8, SheetName=Fa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(2)" title="com.dollardays.testcases.MyFavoritesTestcase" class="method navigator-link" hash-for-method="TC_09NewestFirst({Test Result=PASS, TestCase=Sort By Newest First  &amp; View  - 12,24,48, Comments=, TCID=TC9, SheetName...)">TC_09NewestFirst({Test Result=PASS, TestCase=Sort By Newest First  & View  - 12,24,48, Comments=, TCID=TC9, SheetName...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(2)" title="com.dollardays.testcases.MyFavoritesTestcase" class="method navigator-link" hash-for-method="TC_10Popularity({Test Result=PASS, TestCase=Sort By Popularity  &amp; View - 12,24,48, Comments=, TCID=TC10, SheetName=F...)">TC_10Popularity({Test Result=PASS, TestCase=Sort By Popularity  & View - 12,24,48, Comments=, TCID=TC10, SheetName=F...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(2)" title="com.dollardays.testcases.MyFavoritesTestcase" class="method navigator-link" hash-for-method="TC_11CaseQuantity({Test Result=PASS, TestCase=Sort By Case Quantity  &amp; View  - 12,24,48, Comments=, TCID=TC11, SheetNa...)">TC_11CaseQuantity({Test Result=PASS, TestCase=Sort By Case Quantity  & View  - 12,24,48, Comments=, TCID=TC11, SheetNa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(2)" title="com.dollardays.testcases.MyFavoritesTestcase" class="method navigator-link" hash-for-method="TC_12PricePerUnitLH({Test Result=Fail, TestCase=Sort By Price Per Unit (Low to High)  &amp; View  - 12,24,48, Comments=, TCI...)">TC_12PricePerUnitLH({Test Result=Fail, TestCase=Sort By Price Per Unit (Low to High)  & View  - 12,24,48, Comments=, TCI...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(2)" title="com.dollardays.testcases.MyFavoritesTestcase" class="method navigator-link" hash-for-method="TC_14AlphabeticallyByName({Test Result=PASS, TestCase=Alphabetically By Name  &amp; View  - 12,24,48, Comments=, TCID=TC14, SheetN...)">TC_14AlphabeticallyByName({Test Result=PASS, TestCase=Alphabetically By Name  & View  - 12,24,48, Comments=, TCID=TC14, SheetN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(2)" title="com.dollardays.testcases.MyFavoritesTestcase" class="method navigator-link" hash-for-method="TC_15AddtoFavorites({Test Result=PASS, TestCase=Favorite Symbol , Comments=Assuming the first product retrieved from sea...)">TC_15AddtoFavorites({Test Result=PASS, TestCase=Favorite Symbol , Comments=Assuming the first product retrieved from sea...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite_(2)" title="com.dollardays.testcases.MyFavoritesTestcase" class="method navigator-link" hash-for-method="TC_16ValidateProdFavPage({Test Result=PASS, TestCase=Validate Product in Favorite Page, Comments=, TCID=TC16, SheetName=Favor...)">TC_16ValidateProdFavPage({Test Result=PASS, TestCase=Validate Product in Favorite Page, Comments=, TCID=TC16, SheetName=Favor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_(2) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+        </div> <!-- panel Suite -->
+        <div panel-name="suite-Suite_(1)" class="panel Suite_(1)">
+          <div class="suite-Suite_(1)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.dollardays.testcases.OrderHistoryTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_orderHistory({TestCase=Valid Login Credentials
+ and click on Order History page, Start Date=, TCID=TC1, SheetName...)">
+                  </a> <!-- TC_01_orderHistory({TestCase=Valid Login Credentials
+ and click on Order History page, Start Date=, TCID=TC1, SheetName...) -->
+                  <span class="method-name">TC_01_orderHistory</span>
+                  <span class="parameters">({TestCase=Valid Login Credentials
+ and click on Order History page, Start Date=, TCID=TC1, SheetName=Sheet2, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, End Date=, =})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;input type=&quot;submit&quot; name=&quot;ctl00$cphContent$btnFetchOrders&quot; value=&quot;Submit&quot; id=&quot;ctl00_cphContent_btnFetchOrders&quot; class=&quot; btn dd-btn-primary&quot;&gt; is not clickable at point (1132, 353). Other element would receive the click: &lt;p&gt;...&lt;/p&gt;
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.12 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-5BBFA1D&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55261}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir30732_708565042}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 18089fe19130944aae070ced8711cbe7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.dollardays.testcases.OrderHistoryTestcase.TC_01_orderHistory(OrderHistoryTestcase.java:65)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)">
+                  </a> <!-- TC_02_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...) -->
+                  <span class="method-name">TC_02_orderHistory</span>
+                  <span class="parameters">({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, End Date=44185.0, =})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;input type=&quot;submit&quot; name=&quot;ctl00$cphContent$btnFetchOrders&quot; value=&quot;Submit&quot; id=&quot;ctl00_cphContent_btnFetchOrders&quot; class=&quot; btn dd-btn-primary&quot;&gt; is not clickable at point (1132, 353). Other element would receive the click: &lt;p&gt;...&lt;/p&gt;
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.12 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-5BBFA1D&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55358}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir22080_1663227348}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 15cde0a3e5f473b7bbc1a9201e9a7dcd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.dollardays.testcases.OrderHistoryTestcase.TC_02_orderHistory(OrderHistoryTestcase.java:101)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)">
+                  </a> <!-- TC_03_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...) -->
+                  <span class="method-name">TC_03_orderHistory</span>
+                  <span class="parameters">({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, End Date=44185.0, =})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;input type=&quot;submit&quot; name=&quot;ctl00$cphContent$btnFetchOrders&quot; value=&quot;Submit&quot; id=&quot;ctl00_cphContent_btnFetchOrders&quot; class=&quot; btn dd-btn-primary&quot;&gt; is not clickable at point (1132, 353). Other element would receive the click: &lt;p&gt;...&lt;/p&gt;
+  (Session info: chrome=87.0.4280.141)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.11 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-5BBFA1D&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55446}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\bhuva\AppData\Local\Temp\scoped_dir2596_35679284}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.141, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: eb1afb849e8008112c4705464a1009bd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.dollardays.testcases.OrderHistoryTestcase.TC_03_orderHistory(OrderHistoryTestcase.java:136)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_(1)-class-failed -->
+          <div class="suite-Suite_(1)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.OrderHistoryTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_04_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)">
+                  </a> <!-- TC_04_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...) -->
+                  <span class="method-name">TC_04_orderHistory</span>
+                  <span class="parameters">({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, End Date=44185.0, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_05_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)">
+                  </a> <!-- TC_05_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...) -->
+                  <span class="method-name">TC_05_orderHistory</span>
+                  <span class="parameters">({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, End Date=44185.0, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_(1)-class-passed -->
+        </div> <!-- panel Suite_(1) -->
+        <div panel-name="suite-Suite_(0)" class="panel Suite_(0)">
+          <div class="suite-Suite_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.NewAccountTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({TestCase=Verify lastname field with maxcharacters, TCID=TC4, Lastname=, SheetName=CreateAccount, Co...)">
+                  </a> <!-- createlogin({TestCase=Verify lastname field with maxcharacters, TCID=TC4, Lastname=, SheetName=CreateAccount, Co...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({TestCase=Verify lastname field with maxcharacters, TCID=TC4, Lastname=, SheetName=CreateAccount, Confirmpassword=, Runmode=Yes, Email=, Firstname=abc, Password=, Number=, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({TestCase=verify email field with numbers and chracters, TCID=TC8, Lastname=123asdertfffm34557, Shee...)">
+                  </a> <!-- createlogin({TestCase=verify email field with numbers and chracters, TCID=TC8, Lastname=123asdertfffm34557, Shee...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({TestCase=verify email field with numbers and chracters, TCID=TC8, Lastname=123asdertfffm34557, SheetName=CreateAccount, Confirmpassword=, Runmode=Yes, Email=, Firstname=, Password=, Number=, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({TestCase=Verify invalid data, TCID=TC5, Lastname=d, SheetName=CreateAccount, Confirmpassword=2.0, R...)">
+                  </a> <!-- createlogin({TestCase=Verify invalid data, TCID=TC5, Lastname=d, SheetName=CreateAccount, Confirmpassword=2.0, R...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({TestCase=Verify invalid data, TCID=TC5, Lastname=d, SheetName=CreateAccount, Confirmpassword=2.0, Runmode=Yes, Email=abd, Firstname=e, Password=2.0, Number=456.0, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({TestCase=Verify password fields with different passwords, TCID=TC9, Lastname=def, SheetName=CreateA...)">
+                  </a> <!-- createlogin({TestCase=Verify password fields with different passwords, TCID=TC9, Lastname=def, SheetName=CreateA...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({TestCase=Verify password fields with different passwords, TCID=TC9, Lastname=def, SheetName=CreateAccount, Confirmpassword=lkj, Runmode=Yes, Email=def@gmail.com, Firstname=abc, Password=jkl, Number=3.345678901E9, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({TestCase=Verify required fields, TCID=TC3, Lastname=Abcdeffhfhkdfdkl48374n8973n89472, SheetName=Cre...)">
+                  </a> <!-- createlogin({TestCase=Verify required fields, TCID=TC3, Lastname=Abcdeffhfhkdfdkl48374n8973n89472, SheetName=Cre...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({TestCase=Verify required fields, TCID=TC3, Lastname=Abcdeffhfhkdfdkl48374n8973n89472, SheetName=CreateAccount, Confirmpassword=ab1, Runmode=Yes, Email=charlie@gmail.com, Firstname=CharlieBrown, Password=ab1, Number=, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({TestCase=verify null data, TCID=TC2, Lastname=, SheetName=CreateAccount, Confirmpassword=, Runmode=...)">
+                  </a> <!-- createlogin({TestCase=verify null data, TCID=TC2, Lastname=, SheetName=CreateAccount, Confirmpassword=, Runmode=...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({TestCase=verify null data, TCID=TC2, Lastname=, SheetName=CreateAccount, Confirmpassword=, Runmode=Yes, Email=, Firstname=, Password=, Number=, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({TestCase=Verify all the fields with numbers, TCID=TC6, Lastname=2.0, SheetName=CreateAccount, Confi...)">
+                  </a> <!-- createlogin({TestCase=Verify all the fields with numbers, TCID=TC6, Lastname=2.0, SheetName=CreateAccount, Confi...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({TestCase=Verify all the fields with numbers, TCID=TC6, Lastname=2.0, SheetName=CreateAccount, Confirmpassword=5.0, Runmode=Yes, Email=3.0, Firstname=1.0, Password=5.0, Number=4.0, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({TestCase=Verify valid data, TCID=TC1, Lastname=lars, SheetName=CreateAccount, Confirmpassword=345.0...)">
+                  </a> <!-- createlogin({TestCase=Verify valid data, TCID=TC1, Lastname=lars, SheetName=CreateAccount, Confirmpassword=345.0...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({TestCase=Verify valid data, TCID=TC1, Lastname=lars, SheetName=CreateAccount, Confirmpassword=345.0, Runmode=Yes, Email=abc@gmail.com, Firstname=john, Password=345.0, Number=4.005006E8, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createlogin({TestCase=verify all the fields with numbers , TCID=TC7, Lastname=34353.0, SheetName=CreateAccount, ...)">
+                  </a> <!-- createlogin({TestCase=verify all the fields with numbers , TCID=TC7, Lastname=34353.0, SheetName=CreateAccount, ...) -->
+                  <span class="method-name">createlogin</span>
+                  <span class="parameters">({TestCase=verify all the fields with numbers , TCID=TC7, Lastname=34353.0, SheetName=CreateAccount, Confirmpassword=, Runmode=Yes, Email=, Firstname=2343.0, Password=, Number=, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_(0)-class-passed -->
+        </div> <!-- panel Suite_(0) -->
+        <div panel-name="suite-Suite_(5)" class="panel Suite_(5)">
+          <div class="suite-Suite_(5)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.SubmitARequestTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enteringthedata({TestCase=Submit A Request with valid data , ordernumber=7890.0, TCID=TC1, SheetName=SubmitARequest,...)">
+                  </a> <!-- enteringthedata({TestCase=Submit A Request with valid data , ordernumber=7890.0, TCID=TC1, SheetName=SubmitARequest,...) -->
+                  <span class="method-name">enteringthedata</span>
+                  <span class="parameters">({TestCase=Submit A Request with valid data , ordernumber=7890.0, TCID=TC1, SheetName=SubmitARequest, Runmode=yes , UserName=testingteams2021@gmail.com, Phone Number=8090900890, Password=dGVhbTIwMjE=, Message=This product has damage, Select RequestType=Damage})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_(5)-class-passed -->
+        </div> <!-- panel Suite_(5) -->
+        <div panel-name="suite-Suite_(4)" class="panel Suite_(4)">
+          <div class="suite-Suite_(4)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.MyWalletTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)">
+                  </a> <!-- addWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...) -->
+                  <span class="method-name">addWallet</span>
+                  <span class="parameters">({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, SheetName=Sheet3, Runmode=Yes, NameOnCard=Madhu Test, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, Security Code=345, ExpirationDate=02-February, Zip Code=85286, City=Chandler, State=Arizona, CardNumber=1234567890123456, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)">
+                  </a> <!-- addWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...) -->
+                  <span class="method-name">addWallet</span>
+                  <span class="parameters">({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook_08, SheetName=Sheet3, Runmode=Yes, NameOnCard=Raj Test, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, Security Code=765, ExpirationDate=02-February, Zip Code=85286, City=Phoenix, State=Arizona, CardNumber=2342344323452122, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelWalletAdd({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)">
+                  </a> <!-- cancelWalletAdd({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...) -->
+                  <span class="method-name">cancelWalletAdd</span>
+                  <span class="parameters">({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook_08, SheetName=Sheet3, Runmode=Yes, NameOnCard=Raj Test, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, Security Code=765, ExpirationDate=02-February, Zip Code=85286, City=Phoenix, State=Arizona, CardNumber=2342344323452122, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelWalletAdd({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)">
+                  </a> <!-- cancelWalletAdd({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...) -->
+                  <span class="method-name">cancelWalletAdd</span>
+                  <span class="parameters">({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, SheetName=Sheet3, Runmode=Yes, NameOnCard=Madhu Test, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, Security Code=345, ExpirationDate=02-February, Zip Code=85286, City=Chandler, State=Arizona, CardNumber=1234567890123456, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)">
+                  </a> <!-- editWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...) -->
+                  <span class="method-name">editWallet</span>
+                  <span class="parameters">({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, SheetName=Sheet3, Runmode=Yes, NameOnCard=Madhu Test, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, Security Code=345, ExpirationDate=02-February, Zip Code=85286, City=Chandler, State=Arizona, CardNumber=1234567890123456, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)">
+                  </a> <!-- editWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...) -->
+                  <span class="method-name">editWallet</span>
+                  <span class="parameters">({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook_08, SheetName=Sheet3, Runmode=Yes, NameOnCard=Raj Test, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, Security Code=765, ExpirationDate=02-February, Zip Code=85286, City=Phoenix, State=Arizona, CardNumber=2342344323452122, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_(4)-class-passed -->
+        </div> <!-- panel Suite_(4) -->
+        <div panel-name="suite-Suite_(3)" class="panel Suite_(3)">
+          <div class="suite-Suite_(3)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.MyAddressBookTestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookCreate({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookCreate({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookCreate</span>
+                  <span class="parameters">({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=, Apt=, CompanyName=, FirstName=Madhumidha, TestCase=Validate if user cannot  add new address book without mandatory fields, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=6025541245, TCID=TC_DD_AddressBook_04, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookCreate</span>
+                  <span class="parameters">({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=Sundar, Apt=, CompanyName=Bridges, FirstName=Madhumidha, TestCase=Verify User can Click and Add New Address Book, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=1.234567891E9, TCID=TC_DD_AddressBook_03, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookCreate</span>
+                  <span class="parameters">({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=Test, Apt=, CompanyName=Bridges, FirstName=Madhumidha, TestCase=Verify "Save Changes" button in addressbook.aspx page, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=1.234567891E9, TCID=TC_DD_AddressBook_05, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookCreate</span>
+                  <span class="parameters">({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=Sundar, Apt=, CompanyName=Bridges, FirstName=Madhumidha, TestCase=Verify "Cancel" button in addressbook.aspx page, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=1.234567891E9, TCID=TC_DD_AddressBook_06, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookCreate</span>
+                  <span class="parameters">({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=Sundar, Apt=, CompanyName=Bridges, FirstName=Madhumidha, TestCase=Verify SignIn Image dropdown and SignIn Link Functionality, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=1.234567891E9, TCID=TC_DD_AddressBook_02, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookLastCancel</span>
+                  <span class="parameters">({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=Sundar, Apt=, CompanyName=Bridges, FirstName=Madhumidha, TestCase=Verify User can Click and Add New Address Book, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=1.234567891E9, TCID=TC_DD_AddressBook_03, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookLastCancel</span>
+                  <span class="parameters">({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=Sundar, Apt=, CompanyName=Bridges, FirstName=Madhumidha, TestCase=Verify SignIn Image dropdown and SignIn Link Functionality, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=1.234567891E9, TCID=TC_DD_AddressBook_02, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookLastCancel</span>
+                  <span class="parameters">({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=Test, Apt=, CompanyName=Bridges, FirstName=Madhumidha, TestCase=Verify "Save Changes" button in addressbook.aspx page, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=1.234567891E9, TCID=TC_DD_AddressBook_05, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookLastCancel</span>
+                  <span class="parameters">({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=Sundar, Apt=, CompanyName=Bridges, FirstName=Madhumidha, TestCase=Verify "Cancel" button in addressbook.aspx page, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=1.234567891E9, TCID=TC_DD_AddressBook_06, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressBookLastCancel({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)">
+                  </a> <!-- addressBookLastCancel({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...) -->
+                  <span class="method-name">addressBookLastCancel</span>
+                  <span class="parameters">({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName=srikanthtesting100@gmail.com, State=Arizona, Runmode=Yes, Ext=, LastName=, Apt=, CompanyName=, FirstName=Madhumidha, TestCase=Validate if user cannot  add new address book without mandatory fields, ReceivingType=residentialRadioBtn, ZipCode=85286.0, City=Chandler, PhoneNumber=6025541245, TCID=TC_DD_AddressBook_04, SheetName=Sheet2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login({Apt=1234.0, TestCase=Valid Login Credentials, Ext=1.0, TCID=TC_DD_AddressBook_01, SheetName=Sheet1,...)">
+                  </a> <!-- login({Apt=1234.0, TestCase=Valid Login Credentials, Ext=1.0, TCID=TC_DD_AddressBook_01, SheetName=Sheet1,...) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">({Apt=1234.0, TestCase=Valid Login Credentials, Ext=1.0, TCID=TC_DD_AddressBook_01, SheetName=Sheet1, Runmode=Yes, CompanyName=AAAA, PhoneNumber=1.234567891E9, StreetAddress=123 Pecos dr, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=Sundar, ZipCode=85286.0, City=Chandler, FirstName=Madhu, State=Arizona, Country=United States of America})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_(3)-class-passed -->
+        </div> <!-- panel Suite_(3) -->
+        <div panel-name="suite-Suite_(2)" class="panel Suite_(2)">
+          <div class="suite-Suite_(2)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.dollardays.testcases.MyFavoritesTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_13PricePerUnitHL({Test Result=Fail, TestCase=Sort By Price Per Unit(High to Low)  &amp; View  - 12,24,48, Comments=, TCID...)">
+                  </a> <!-- TC_13PricePerUnitHL({Test Result=Fail, TestCase=Sort By Price Per Unit(High to Low)  & View  - 12,24,48, Comments=, TCID...) -->
+                  <span class="method-name">TC_13PricePerUnitHL</span>
+                  <span class="parameters">({Test Result=Fail, TestCase=Sort By Price Per Unit(High to Low)  & View  - 12,24,48, Comments=, TCID=TC13, SheetName=Favorites, Runmode=No, UserName=testingteams2021@gmail.com, Sort By=Price Per Unit(High to Low), Password=dGVhbTIwMjE=})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Price Per Unit(High to Low)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-5BBFA1D&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+	at com.dollardays.testcases.MyFavoritesTestcase.TC_13PricePerUnitHL(MyFavoritesTestcase.java:346)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_(2)-class-failed -->
+          <div class="suite-Suite_(2)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.MyFavoritesTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_08BestMatch({Test Result=PASS, TestCase=Sort By Best Match &amp; View  - 12,24,48, Comments=, TCID=TC8, SheetName=Fa...)">
+                  </a> <!-- TC_08BestMatch({Test Result=PASS, TestCase=Sort By Best Match & View  - 12,24,48, Comments=, TCID=TC8, SheetName=Fa...) -->
+                  <span class="method-name">TC_08BestMatch</span>
+                  <span class="parameters">({Test Result=PASS, TestCase=Sort By Best Match & View  - 12,24,48, Comments=, TCID=TC8, SheetName=Favorites, Runmode=No, UserName=testingteams2021@gmail.com, Sort By=Best Match, Password=dGVhbTIwMjE=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_09NewestFirst({Test Result=PASS, TestCase=Sort By Newest First  &amp; View  - 12,24,48, Comments=, TCID=TC9, SheetName...)">
+                  </a> <!-- TC_09NewestFirst({Test Result=PASS, TestCase=Sort By Newest First  & View  - 12,24,48, Comments=, TCID=TC9, SheetName...) -->
+                  <span class="method-name">TC_09NewestFirst</span>
+                  <span class="parameters">({Test Result=PASS, TestCase=Sort By Newest First  & View  - 12,24,48, Comments=, TCID=TC9, SheetName=Favorites, Runmode=No, UserName=testingteams2021@gmail.com, Sort By=Newest First, Password=dGVhbTIwMjE=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_10Popularity({Test Result=PASS, TestCase=Sort By Popularity  &amp; View - 12,24,48, Comments=, TCID=TC10, SheetName=F...)">
+                  </a> <!-- TC_10Popularity({Test Result=PASS, TestCase=Sort By Popularity  & View - 12,24,48, Comments=, TCID=TC10, SheetName=F...) -->
+                  <span class="method-name">TC_10Popularity</span>
+                  <span class="parameters">({Test Result=PASS, TestCase=Sort By Popularity  & View - 12,24,48, Comments=, TCID=TC10, SheetName=Favorites, Runmode=No, UserName=testingteams2021@gmail.com, Sort By=Popularity, Password=dGVhbTIwMjE=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_11CaseQuantity({Test Result=PASS, TestCase=Sort By Case Quantity  &amp; View  - 12,24,48, Comments=, TCID=TC11, SheetNa...)">
+                  </a> <!-- TC_11CaseQuantity({Test Result=PASS, TestCase=Sort By Case Quantity  & View  - 12,24,48, Comments=, TCID=TC11, SheetNa...) -->
+                  <span class="method-name">TC_11CaseQuantity</span>
+                  <span class="parameters">({Test Result=PASS, TestCase=Sort By Case Quantity  & View  - 12,24,48, Comments=, TCID=TC11, SheetName=Favorites, Runmode=No, UserName=testingteams2021@gmail.com, Sort By=Case Quantity, Password=dGVhbTIwMjE=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_12PricePerUnitLH({Test Result=Fail, TestCase=Sort By Price Per Unit (Low to High)  &amp; View  - 12,24,48, Comments=, TCI...)">
+                  </a> <!-- TC_12PricePerUnitLH({Test Result=Fail, TestCase=Sort By Price Per Unit (Low to High)  & View  - 12,24,48, Comments=, TCI...) -->
+                  <span class="method-name">TC_12PricePerUnitLH</span>
+                  <span class="parameters">({Test Result=Fail, TestCase=Sort By Price Per Unit (Low to High)  & View  - 12,24,48, Comments=, TCID=TC12, SheetName=Favorites, Runmode=No, UserName=testingteams2021@gmail.com, Sort By=Price Per Unit(Low to High), Password=dGVhbTIwMjE=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_14AlphabeticallyByName({Test Result=PASS, TestCase=Alphabetically By Name  &amp; View  - 12,24,48, Comments=, TCID=TC14, SheetN...)">
+                  </a> <!-- TC_14AlphabeticallyByName({Test Result=PASS, TestCase=Alphabetically By Name  & View  - 12,24,48, Comments=, TCID=TC14, SheetN...) -->
+                  <span class="method-name">TC_14AlphabeticallyByName</span>
+                  <span class="parameters">({Test Result=PASS, TestCase=Alphabetically By Name  & View  - 12,24,48, Comments=, TCID=TC14, SheetName=Favorites, Runmode=No, UserName=testingteams2021@gmail.com, Sort By=Alphabetically By Name, Password=dGVhbTIwMjE=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_15AddtoFavorites({Test Result=PASS, TestCase=Favorite Symbol , Comments=Assuming the first product retrieved from sea...)">
+                  </a> <!-- TC_15AddtoFavorites({Test Result=PASS, TestCase=Favorite Symbol , Comments=Assuming the first product retrieved from sea...) -->
+                  <span class="method-name">TC_15AddtoFavorites</span>
+                  <span class="parameters">({Test Result=PASS, TestCase=Favorite Symbol , Comments=Assuming the first product retrieved from search is non favorite, TCID=TC15, SheetName=Favorites, Runmode=No, UserName=testingteams2021@gmail.com, Sort By=Favorite Symbol, Password=dGVhbTIwMjE=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_16ValidateProdFavPage({Test Result=PASS, TestCase=Validate Product in Favorite Page, Comments=, TCID=TC16, SheetName=Favor...)">
+                  </a> <!-- TC_16ValidateProdFavPage({Test Result=PASS, TestCase=Validate Product in Favorite Page, Comments=, TCID=TC16, SheetName=Favor...) -->
+                  <span class="method-name">TC_16ValidateProdFavPage</span>
+                  <span class="parameters">({Test Result=PASS, TestCase=Validate Product in Favorite Page, Comments=, TCID=TC16, SheetName=Favorites, Runmode=No, UserName=testingteams2021@gmail.com, Sort By=Product in Favorite Page, Password=dGVhbTIwMjE=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_(2)-class-passed -->
+        </div> <!-- panel Suite_(2) -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhuva\eclipse-workspace\DollarDays2\config\Multiple.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;NewAccount.xml&quot;/&gt;
+    &lt;suite-file path=&quot;OrderHistory.xml&quot;/&gt;
+    &lt;suite-file path=&quot;MyFavorites.xml&quot;/&gt;
+    &lt;suite-file path=&quot;MyAddressBook.xml&quot;/&gt;
+    &lt;suite-file path=&quot;MyWallet.xml&quot;/&gt;
+    &lt;suite-file path=&quot;SubmitARequest.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhuva\eclipse-workspace\DollarDays2\config\OrderHistory.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite (1)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dollar Days Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.OrderHistoryTestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dollar Days Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite (1) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhuva\eclipse-workspace\DollarDays2\config\NewAccount.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite (0)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.NewAccountTestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_(5)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhuva\eclipse-workspace\DollarDays2\config\SubmitaRequest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite (5)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.SubmitARequestTestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite (5) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_(4)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhuva\eclipse-workspace\DollarDays2\config\MyWallet.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite (4)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;My Wallet Test Case&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.MyWalletTestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- My Wallet Test Case --&gt;
+&lt;/suite&gt; &lt;!-- Suite (4) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_(3)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhuva\eclipse-workspace\DollarDays2\config\MyAddressBook.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite (3)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;My Address Book Test Case&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.MyAddressBookTestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- My Address Book Test Case --&gt;
+&lt;/suite&gt; &lt;!-- Suite (3) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhuva\eclipse-workspace\DollarDays2\config\MyFavorites.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite (2)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dollar Days Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.MyFavoritesTestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dollar Days Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite (2) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Dollar Days Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_(5)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite (5)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_(4)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite (4)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">My Wallet Test Case (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_(3)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite (3)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">My Address Book Test Case (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite (2)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Dollar Days Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_(5)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite (5)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_(4)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite (4)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_(3)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite (3)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite (2)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_(1)');
+function tableData_Suite_(1)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_05_orderHistory')
+data.setCell(0, 2, 'com.dollardays.testcases.OrderHistoryTestcase')
+data.setCell(0, 3, 39441);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_01_orderHistory')
+data.setCell(1, 2, 'com.dollardays.testcases.OrderHistoryTestcase')
+data.setCell(1, 3, 36693);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_03_orderHistory')
+data.setCell(2, 2, 'com.dollardays.testcases.OrderHistoryTestcase')
+data.setCell(2, 3, 26850);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_02_orderHistory')
+data.setCell(3, 2, 'com.dollardays.testcases.OrderHistoryTestcase')
+data.setCell(3, 3, 22036);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_04_orderHistory')
+data.setCell(4, 2, 'com.dollardays.testcases.OrderHistoryTestcase')
+data.setCell(4, 3, 19422);
+window.suiteTableData['Suite_(1)']= { tableData: data, tableDiv: 'times-div-Suite_(1)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite_(1)">
+              </div> <!-- times-div-Suite_(1) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_(0)');
+function tableData_Suite_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createlogin')
+data.setCell(0, 2, 'com.dollardays.testcases.NewAccountTestcase')
+data.setCell(0, 3, 16287);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createlogin')
+data.setCell(1, 2, 'com.dollardays.testcases.NewAccountTestcase')
+data.setCell(1, 3, 16196);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createlogin')
+data.setCell(2, 2, 'com.dollardays.testcases.NewAccountTestcase')
+data.setCell(2, 3, 16031);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createlogin')
+data.setCell(3, 2, 'com.dollardays.testcases.NewAccountTestcase')
+data.setCell(3, 3, 15319);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createlogin')
+data.setCell(4, 2, 'com.dollardays.testcases.NewAccountTestcase')
+data.setCell(4, 3, 14823);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createlogin')
+data.setCell(5, 2, 'com.dollardays.testcases.NewAccountTestcase')
+data.setCell(5, 3, 14329);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createlogin')
+data.setCell(6, 2, 'com.dollardays.testcases.NewAccountTestcase')
+data.setCell(6, 3, 14057);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createlogin')
+data.setCell(7, 2, 'com.dollardays.testcases.NewAccountTestcase')
+data.setCell(7, 3, 14014);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createlogin')
+data.setCell(8, 2, 'com.dollardays.testcases.NewAccountTestcase')
+data.setCell(8, 3, 13999);
+window.suiteTableData['Suite_(0)']= { tableData: data, tableDiv: 'times-div-Suite_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite_(0)">
+              </div> <!-- times-div-Suite_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_(5)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite (5)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_(5)');
+function tableData_Suite_(5)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'enteringthedata')
+data.setCell(0, 2, 'com.dollardays.testcases.SubmitARequestTestcase')
+data.setCell(0, 3, 29664);
+window.suiteTableData['Suite_(5)']= { tableData: data, tableDiv: 'times-div-Suite_(5)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-Suite_(5)">
+              </div> <!-- times-div-Suite_(5) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_(4)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite (4)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_(4)');
+function tableData_Suite_(4)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addWallet')
+data.setCell(0, 2, 'com.dollardays.testcases.MyWalletTestcase')
+data.setCell(0, 3, 36378);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'editWallet')
+data.setCell(1, 2, 'com.dollardays.testcases.MyWalletTestcase')
+data.setCell(1, 3, 31763);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'editWallet')
+data.setCell(2, 2, 'com.dollardays.testcases.MyWalletTestcase')
+data.setCell(2, 3, 31231);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addWallet')
+data.setCell(3, 2, 'com.dollardays.testcases.MyWalletTestcase')
+data.setCell(3, 3, 29821);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'cancelWalletAdd')
+data.setCell(4, 2, 'com.dollardays.testcases.MyWalletTestcase')
+data.setCell(4, 3, 28038);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'cancelWalletAdd')
+data.setCell(5, 2, 'com.dollardays.testcases.MyWalletTestcase')
+data.setCell(5, 3, 26341);
+window.suiteTableData['Suite_(4)']= { tableData: data, tableDiv: 'times-div-Suite_(4)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite_(4)">
+              </div> <!-- times-div-Suite_(4) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_(3)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite (3)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_(3)');
+function tableData_Suite_(3)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addressBookCreate')
+data.setCell(0, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(0, 3, 71241);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addressBookCreate')
+data.setCell(1, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(1, 3, 60943);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addressBookCreate')
+data.setCell(2, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(2, 3, 42810);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addressBookCreate')
+data.setCell(3, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(3, 3, 33842);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addressBookCreate')
+data.setCell(4, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(4, 3, 33083);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addressBookLastCancel')
+data.setCell(5, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(5, 3, 31301);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addressBookLastCancel')
+data.setCell(6, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(6, 3, 30981);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addressBookLastCancel')
+data.setCell(7, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(7, 3, 30607);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addressBookLastCancel')
+data.setCell(8, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(8, 3, 30469);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addressBookLastCancel')
+data.setCell(9, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(9, 3, 30372);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'login')
+data.setCell(10, 2, 'com.dollardays.testcases.MyAddressBookTestCase')
+data.setCell(10, 3, 10163);
+window.suiteTableData['Suite_(3)']= { tableData: data, tableDiv: 'times-div-Suite_(3)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite_(3)">
+              </div> <!-- times-div-Suite_(3) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite (2)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_(2)');
+function tableData_Suite_(2)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_15AddtoFavorites')
+data.setCell(0, 2, 'com.dollardays.testcases.MyFavoritesTestcase')
+data.setCell(0, 3, 95677);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_08BestMatch')
+data.setCell(1, 2, 'com.dollardays.testcases.MyFavoritesTestcase')
+data.setCell(1, 3, 53990);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_09NewestFirst')
+data.setCell(2, 2, 'com.dollardays.testcases.MyFavoritesTestcase')
+data.setCell(2, 3, 51982);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_11CaseQuantity')
+data.setCell(3, 2, 'com.dollardays.testcases.MyFavoritesTestcase')
+data.setCell(3, 3, 50580);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_10Popularity')
+data.setCell(4, 2, 'com.dollardays.testcases.MyFavoritesTestcase')
+data.setCell(4, 3, 48565);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_14AlphabeticallyByName')
+data.setCell(5, 2, 'com.dollardays.testcases.MyFavoritesTestcase')
+data.setCell(5, 3, 46467);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_12PricePerUnitLH')
+data.setCell(6, 2, 'com.dollardays.testcases.MyFavoritesTestcase')
+data.setCell(6, 3, 45877);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_16ValidateProdFavPage')
+data.setCell(7, 2, 'com.dollardays.testcases.MyFavoritesTestcase')
+data.setCell(7, 3, 34395);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_13PricePerUnitHL')
+data.setCell(8, 2, 'com.dollardays.testcases.MyFavoritesTestcase')
+data.setCell(8, 3, 13322);
+window.suiteTableData['Suite_(2)']= { tableData: data, tableDiv: 'times-div-Suite_(2)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Suite_(2)">
+              </div> <!-- times-div-Suite_(2) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_(5)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite (5)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_(4)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite (4)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_(3)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite (3)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite (2)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_(5)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_(4)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_(3)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_(1)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.OrderHistoryTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_01_orderHistory({TestCase=Valid Login Credentials
+ and click on Order History page, Start Date=, TCID=TC1, SheetName...)</span>
+                <span class="method-start">13311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">50018 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">51224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_02_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)</span>
+                <span class="method-start">62353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">84392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">85574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_03_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)</span>
+                <span class="method-start">96958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">123812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">124902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_04_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)</span>
+                <span class="method-start">142226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">161649 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">162892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_05_orderHistory({TestCase=Enter Start date and End date in the field, Start Date=44168.0, TCID=TC2, SheetName=Sheet2...)</span>
+                <span class="method-start">177471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">216913 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">218116 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.NewAccountTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">2844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({TestCase=Verify valid data, TCID=TC1, Lastname=lars, SheetName=CreateAccount, Confirmpassword=345.0...)</span>
+                <span class="method-start">15940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">32138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">33424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({TestCase=verify null data, TCID=TC2, Lastname=, SheetName=CreateAccount, Confirmpassword=, Runmode=...)</span>
+                <span class="method-start">51512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">65570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">66605 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({TestCase=Verify required fields, TCID=TC3, Lastname=Abcdeffhfhkdfdkl48374n8973n89472, SheetName=Cre...)</span>
+                <span class="method-start">81159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">95489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">96615 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({TestCase=Verify lastname field with maxcharacters, TCID=TC4, Lastname=, SheetName=CreateAccount, Co...)</span>
+                <span class="method-start">108312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">122327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">123487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({TestCase=Verify invalid data, TCID=TC5, Lastname=d, SheetName=CreateAccount, Confirmpassword=2.0, R...)</span>
+                <span class="method-start">134801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">151088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">152221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({TestCase=Verify all the fields with numbers, TCID=TC6, Lastname=2.0, SheetName=CreateAccount, Confi...)</span>
+                <span class="method-start">163757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">179789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">180883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({TestCase=verify all the fields with numbers , TCID=TC7, Lastname=34353.0, SheetName=CreateAccount, ...)</span>
+                <span class="method-start">193163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">207163 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">208285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({TestCase=verify email field with numbers and chracters, TCID=TC8, Lastname=123asdertfffm34557, Shee...)</span>
+                <span class="method-start">219303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">234127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">235264 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createlogin({TestCase=Verify password fields with different passwords, TCID=TC9, Lastname=def, SheetName=CreateA...)</span>
+                <span class="method-start">247110 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">262430 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">263499 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_(5)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.SubmitARequestTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enteringthedata({TestCase=Submit A Request with valid data , ordernumber=7890.0, TCID=TC1, SheetName=SubmitARequest,...)</span>
+                <span class="method-start">14602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">44267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">45785 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_(4)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.MyWalletTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)</span>
+                <span class="method-start">11857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">41678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">43040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)</span>
+                <span class="method-start">54469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">90847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">92171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelWalletAdd({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)</span>
+                <span class="method-start">105822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">133862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">134732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelWalletAdd({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)</span>
+                <span class="method-start">144819 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">171160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">172098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editWallet({Year=2021, Street Address=1234 W Greenwood St, TestCase=Add New Wallet, TCID=TC_DD_AddressBook_07, ...)</span>
+                <span class="method-start">189953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">221184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">222454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editWallet({Year=2022, Street Address=1234 W Redwood St, TestCase=Cancel Add New Wallet, TCID=TC_DD_AddressBook...)</span>
+                <span class="method-start">235019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">266782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">268054 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_(3)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.MyAddressBookTestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">74 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">11656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">54467 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">55806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">67578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">138819 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">140088 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookCreate({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">151051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">211995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">213280 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">226575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">260418 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">261752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookCreate({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">274596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">307679 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">308961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">321721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">352190 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">353414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">366574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">397876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">399089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookLastCancel({StreetAddress=1525 W Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">412387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">442759 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">443927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">455701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">486309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">487506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addressBookLastCancel({StreetAddress=1525 w Lark Dr, Password=cGFzc3dvcmQxMjM=, Country=United States of America, UserName...)</span>
+                <span class="method-start">498934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">529916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">531153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login({Apt=1234.0, TestCase=Valid Login Credentials, Ext=1.0, TCID=TC_DD_AddressBook_01, SheetName=Sheet1,...)</span>
+                <span class="method-start">542541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">552704 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">553969 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_(2)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.MyFavoritesTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_08BestMatch({Test Result=PASS, TestCase=Sort By Best Match & View  - 12,24,48, Comments=, TCID=TC8, SheetName=Fa...)</span>
+                <span class="method-start">15833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">69824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">71103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_09NewestFirst({Test Result=PASS, TestCase=Sort By Newest First  & View  - 12,24,48, Comments=, TCID=TC9, SheetName...)</span>
+                <span class="method-start">82042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">134025 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">135342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_10Popularity({Test Result=PASS, TestCase=Sort By Popularity  & View - 12,24,48, Comments=, TCID=TC10, SheetName=F...)</span>
+                <span class="method-start">146640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">195205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">196487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_11CaseQuantity({Test Result=PASS, TestCase=Sort By Case Quantity  & View  - 12,24,48, Comments=, TCID=TC11, SheetNa...)</span>
+                <span class="method-start">207724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">258305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">259600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_12PricePerUnitLH({Test Result=Fail, TestCase=Sort By Price Per Unit (Low to High)  & View  - 12,24,48, Comments=, TCI...)</span>
+                <span class="method-start">273770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">319647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">320960 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_13PricePerUnitHL({Test Result=Fail, TestCase=Sort By Price Per Unit(High to Low)  & View  - 12,24,48, Comments=, TCID...)</span>
+                <span class="method-start">332772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">346097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">347291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_14AlphabeticallyByName({Test Result=PASS, TestCase=Alphabetically By Name  & View  - 12,24,48, Comments=, TCID=TC14, SheetN...)</span>
+                <span class="method-start">358798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">405266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">406547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_15AddtoFavorites({Test Result=PASS, TestCase=Favorite Symbol , Comments=Assuming the first product retrieved from sea...)</span>
+                <span class="method-start">418019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">513697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">514935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_16ValidateProdFavPage({Test Result=PASS, TestCase=Validate Product in Favorite Page, Comments=, TCID=TC16, SheetName=Favor...)</span>
+                <span class="method-start">526449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">560845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">562214 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
